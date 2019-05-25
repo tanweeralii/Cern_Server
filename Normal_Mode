@@ -149,35 +149,35 @@ cd /home/Heisenberg
 mkdir -m 544 task{1..5}
 mkdir abc
 cd task1 
-for i in {1..50}; 
+for i in {1..50}
 do 
 pwgen 128 1 > Heisenberg_task$i
 done
 chmod 555 Heisenberg_task{1..50}
 cd ..
 cd task2
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Heisenberg_task$i
 done
 chmod 555 Heisenberg_task{1..50}
 cd ..
 cd task3
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Heisenberg_task$i
 done
 chmod 555 Heisenberg_task{1..50}
 cd ..
 cd task4
-for i in {1..50}; 
+for i in {1..50}
 do 
 pwgen 128 1 > Heisenberg_task$i
 done
 chmod 555 Heisenberg_task{1..50}
 cd ..
 cd task5
-for i in {1..50}; 
+for i in {1..50}
 do 
 pwgen 128 1 > Heisenberg_task$i
 done
@@ -187,35 +187,35 @@ cd /home/Hertz
 mkdir -m 544 task{1..5}
 mkdir abc
 cd task1 
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Hertz_task$i
 done
 chmod 555 Hertz_task{1..50}
 cd ..
 cd task2
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Hertz_task$i
 done
 chmod 555 Hertz_task{1..50}
 cd ..
 cd task3
-for i in {1..50}; 
+for i in {1..50}
 do 
 pwgen 128 1 > Hertz_task$i
 done
 chmod 555 Hertz_task{1..50}
 cd ..
 cd task4
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Hertz_task$i
 done
 chmod 555 Hertz_task{1..50}
 cd ..
 cd task5
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Hertz_task$i
 done
@@ -225,35 +225,35 @@ cd /home/Holland
 mkdir -m 544 task{1..5}
 mkdir abc
 cd task1 
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Holland_task$i
 done
 chmod 555 Holland_task{1..50}
 cd ..
 cd task2
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Holland_task$i
 done
 chmod 555 Holland_task{1..50}
 cd ..
 cd task3
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Holland_task$i
 done
 chmod 555 Holland_task{1..50}
 cd ..
 cd task4
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1  Holland_task$i
 done
 chmod 555 Holland_task{1..50}
 cd ..
 cd task5
-for i in {1..50}; 
+for i in {1..50} 
 do 
 pwgen 128 1 > Holland_task$i
 done
