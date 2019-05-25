@@ -1,0 +1,419 @@
+#!/bin/bash
+touch hey.txt
+chmod 600 hey.txt
+echo 'MasterH:abcde:::MasterH:/home/MasterH:/bin/bash
+Heisenberg:abcde:::Heisenberg:/home/Heisenberg:/bin/bash
+Heisenberg1:abcde:::Heisenberg1:/home/Heisenberg1:/bin/bash
+Heisenberg2:abcde:::Heisenberg2:/home/Heisenberg2:/bin/bash
+Heisenberg3:abcde:::Heisenberg3:/home/Heisenberg3:/bin/bash
+Heisenberg4:abcde:::Heisenberg4:/home/Heisenberg4:/bin/bash
+Heisenberg5:abcde:::Heisenberg5:/home/Heisenberg5:/bin/bash
+Heisenberg6:abcde:::Heisenberg6:/home/Heisenberg6:/bin/bash
+Heisenberg7:abcde:::Heisenberg7:/home/Heisenberg7:/bin/bash
+Heisenberg8:abcde:::Heisenberg8:/home/Heisenberg8:/bin/bash
+Heisenberg9:abcde:::Heisenberg9:/home/Heisenberg9:/bin/bash
+Heisenberg10:abcde:::Heisenberg10:/home/Heisenberg10:/bin/bash
+Heisenberg11:abcde:::Heisenberg11:/home/Heisenberg11:/bin/bash
+Heisenberg12:abcde:::Heisenberg12:/home/Heisenberg12:/bin/bash
+Heisenberg13:abcde:::Heisenberg13:/home/Heisenberg13:/bin/bash
+Heisenberg14:abcde:::Heisenberg14:/home/Heisenberg14:/bin/bash
+Heisenberg15:abcde:::Heisenberg15:/home/Heisenberg15:/bin/bash
+Heisenberg16:abcde:::Heisenberg16:/home/Heisenberg16:/bin/bash
+Heisenberg17:abcde:::Heisenberg17:/home/Heisenberg17:/bin/bash
+Heisenberg18:abcde:::Heisenberg18:/home/Heisenberg18:/bin/bash
+Heisenberg19:abcde:::Heisenberg19:/home/Heisenberg19:/bin/bash
+Heisenberg20:abcde:::Heisenberg20:/home/Heisenberg20:/bin/bash
+Hertz:abcde:::Hertz:/home/Hertz:/bin/bash
+Hertz1:abcde:::Hertz1:/home/Hertz1:/bin/bash
+Hertz2:abcde:::Hertz2:/home/Hertz2:/bin/bash
+Hertz3:abcde:::Hertz3:/home/Hertz3:/bin/bash
+Hertz4:abcde:::Hertz4:/home/Hertz4:/bin/bash
+Hertz5:abcde:::Hertz5:/home/Hertz5:/bin/bash
+Hertz6:abcde:::Hertz6:/home/Hertz6:/bin/bash
+Hertz7:abcde:::Hertz7:/home/Hertz7:/bin/bash
+Hertz8:abcde:::Hertz8:/home/Hertz8:/bin/bash
+Hertz9:abcde:::Hertz9:/home/Hertz9:/bin/bash
+Hertz10:abcde:::Hertz10:/home/Hertz10:/bin/bash
+Hertz11:abcde:::Hertz11:/home/Hertz11:/bin/bash
+Hertz12:abcde:::Hertz12:/home/Hertz12:/bin/bash
+Hertz13:abcde:::Hertz13:/home/Hertz13:/bin/bash
+Hertz14:abcde:::Hertz14:/home/Hertz14:/bin/bash
+Hertz15:abcde:::Hertz15:/home/Hertz15:/bin/bash
+Hertz16:abcde:::Hertz16:/home/Hertz16:/bin/bash
+Hertz17:abcde:::Hertz17:/home/Hertz17:/bin/bash
+Hertz18:abcde:::Hertz18:/home/Hertz18:/bin/bash
+Hertz19:abcde:::Hertz19:/home/Hertz19:/bin/bash
+Hertz20:abcde:::Hertz20:/home/Hertz20:/bin/bash
+Holland:abcde:::Holland:/home/Holland:/bin/bash
+Holland1:abcde:::HOlland1:/home/Holland1:/bin/bash
+Holland2:abcde:::HOlland2:/home/Holland2:/bin/bash
+Holland3:abcde:::HOlland3:/home/Holland3:/bin/bash
+Holland4:abcde:::HOlland4:/home/Holland4:/bin/bash
+Holland5:abcde:::HOlland5:/home/Holland5:/bin/bash
+Holland6:abcde:::HOlland6:/home/Holland6:/bin/bash
+Holland7:abcde:::HOlland7:/home/Holland7:/bin/bash
+Holland8:abcde:::HOlland8:/home/Holland8:/bin/bash
+Holland9:abcde:::HOlland9:/home/Holland9:/bin/bash
+Holland10:abcde:::HOlland10:/home/Holland10:/bin/bash
+Holland11:abcde:::HOlland11:/home/Holland11:/bin/bash
+Holland12:abcde:::HOlland12:/home/Holland12:/bin/bash
+Holland13:abcde:::HOlland13:/home/Holland13:/bin/bash
+Holland14:abcde:::HOlland14:/home/Holland14:/bin/bash
+Holland15:abcde:::HOlland15:/home/Holland15:/bin/bash
+Holland16:abcde:::HOlland16:/home/Holland16:/bin/bash
+Holland17:abcde:::HOlland17:/home/Holland17:/bin/bash
+Holland18:abcde:::HOlland18:/home/Holland18:/bin/bash
+Holland19:abcde:::HOlland19:/home/Holland19:/bin/bash
+Holland20:abcde:::HOlland20:/home/Holland20:/bin/bash' > hey.txt
+sudo newusers hey.txt
+rm hey.txt
+cd /
+cd /home
+sudo usermod -a -G Heisenberg1,Heisenberg2,Heisenberg3,Heisenberg4,Heisenberg5,Heisenberg6,Heisenberg7,Heisenberg8,Heisenberg9,Heisenberg10,Heisenberg11,Heisenberg12,Heisenberg13,Heisenberg14,Heisenberg15,Heisenberg16,Heisenberg17,Heisenberg18,Heisenberg19,Heisenberg20 Heisenberg
+sudo usermod -a -G Heisenberg1,Heisenberg2,Heisenberg3,Heisenberg4,Heisenberg5,Heisenberg6,Heisenberg7,Heisenberg8,Heisenberg9,Heisenberg10,Heisenberg11,Heisenberg12,Heisenberg13,Heisenberg14,Heisenberg15,Heisenberg16,Heisenberg17,Heisenberg18,Heisenberg19,Heisenberg20 MasterH
+sudo usermod -a -G Hertz1,Hertz2,Hertz3,Hertz4,Hertz5,Hertz6,Hertz7,Hertz8,Hertz9,Hertz10,Hertz11,Hertz12,Hertz13,Hertz14,Hertz15,Hertz16,Hertz17,Hertz18,Hertz19,Hertz20 Hertz
+sudo usermod -a -G Hertz1,Hertz2,Hertz3,Hertz4,Hertz5,Hertz6,Hertz7,Hertz8,Hertz9,Hertz10,Hertz11,Hertz12,Hertz13,Hertz14,Hertz15,Hertz16,Hertz17,Hertz18,Hertz19,Hertz20 MasterH
+sudo usermod -a -G Holland1,Holland2,Holland3,Holland4,Holland5,Holland6,Holland7,Holland8,Holland9,Holland10,Holland11,Holland12,Holland13,Holland14,Holland15,Holland16,Holland17,Holland18,Holland19,Holland20 Holland
+sudo usermod -a -G Holland1,Holland2,Holland3,Holland4,Holland5,Holland6,Holland7,Holland8,Holland9,Holland10,Holland11,Holland12,Holland13,Holland14,Holland15,Holland16,Holland17,Holland18,Holland19,Holland20 MasterH
+sudo chmod 754 Heisenberg1
+sudo chmod 754 Heisenberg2
+sudo chmod 754 Heisenberg3
+sudo chmod 754 Heisenberg4
+sudo chmod 754 Heisenberg5
+sudo chmod 754 Heisenberg6
+sudo chmod 754 Heisenberg7
+sudo chmod 754 Heisenberg8
+sudo chmod 754 Heisenberg9
+sudo chmod 754 Heisenberg10
+sudo chmod 754 Heisenberg11
+sudo chmod 754 Heisenberg12
+sudo chmod 754 Heisenberg13
+sudo chmod 754 Heisenberg14
+sudo chmod 754 Heisenberg15
+sudo chmod 754 Heisenberg16
+sudo chmod 754 Heisenberg17
+sudo chmod 754 Heisenberg18
+sudo chmod 754 Heisenberg19
+sudo chmod 754 Heisenberg20
+sudo chmod 754 Hertz1
+sudo chmod 754 Hertz2
+sudo chmod 754 Hertz3
+sudo chmod 754 Hertz4
+sudo chmod 754 Hertz5
+sudo chmod 754 Hertz6
+sudo chmod 754 Hertz7
+sudo chmod 754 Hertz8
+sudo chmod 754 Hertz9
+sudo chmod 754 Hertz10
+sudo chmod 754 Hertz11
+sudo chmod 754 Hertz12
+sudo chmod 754 Hertz13
+sudo chmod 754 Hertz14
+sudo chmod 754 Hertz15
+sudo chmod 754 Hertz16
+sudo chmod 754 Hertz17
+sudo chmod 754 Hertz18
+sudo chmod 754 Hertz19
+sudo chmod 754 Hertz20
+sudo chmod 754 Holland1
+sudo chmod 754 Holland2
+sudo chmod 754 Holland3
+sudo chmod 754 Holland4
+sudo chmod 754 Holland5
+sudo chmod 754 Holland6
+sudo chmod 754 Holland7
+sudo chmod 754 Holland8
+sudo chmod 754 Holland9
+sudo chmod 754 Holland10
+sudo chmod 754 Holland11
+sudo chmod 754 Holland12
+sudo chmod 754 Holland13
+sudo chmod 754 Holland14
+sudo chmod 754 Holland15
+sudo chmod 754 Holland16
+sudo chmod 754 Holland17
+sudo chmod 754 Holland18
+sudo chmod 754 Holland19
+sudo chmod 754 Holland20
+sudo chmod 744 Heisenberg
+sudo chmod 744 Hertz
+sudo chmod 744 Holland
+sudo chmod 744 MasterH
+sudo setfacl -m u:MasterH:rx /home/Heisenberg
+sudo setfacl -m u:MasterH:rx /home/Hertz
+sudo setfacl -m u:MasterH:rx /home/Holland
+sudo -i -u root bash << EOF
+cd /
+sudo apt install pwgen
+cd /home/Heisenberg
+mkdir -m 544 task{1..5}
+mkdir abc
+cd task1 
+for i in {1..50}; 
+do 
+pwgen 128 1 > Heisenberg_task$i
+done
+chmod 555 Heisenberg_task{1..50}
+cd ..
+cd task2
+for i in {1..50}; 
+do 
+pwgen 128 1 > Heisenberg_task$i
+done
+chmod 555 Heisenberg_task{1..50}
+cd ..
+cd task3
+for i in {1..50}; 
+do 
+pwgen 128 1 > Heisenberg_task$i
+done
+chmod 555 Heisenberg_task{1..50}
+cd ..
+cd task4
+for i in {1..50}; 
+do 
+pwgen 128 1 > Heisenberg_task$i
+done
+chmod 555 Heisenberg_task{1..50}
+cd ..
+cd task5
+for i in {1..50}; 
+do 
+pwgen 128 1 > Heisenberg_task$i
+done
+chmod 555 Heisenberg_task{1..50}
+cd /
+cd /home/Hertz
+mkdir -m 544 task{1..5}
+mkdir abc
+cd task1 
+for i in {1..50}; 
+do 
+pwgen 128 1 > Hertz_task$i
+done
+chmod 555 Hertz_task{1..50}
+cd ..
+cd task2
+for i in {1..50}; 
+do 
+pwgen 128 1 > Hertz_task$i
+done
+chmod 555 Hertz_task{1..50}
+cd ..
+cd task3
+for i in {1..50}; 
+do 
+pwgen 128 1 > Hertz_task$i
+done
+chmod 555 Hertz_task{1..50}
+cd ..
+cd task4
+for i in {1..50}; 
+do 
+pwgen 128 1 > Hertz_task$i
+done
+chmod 555 Hertz_task{1..50}
+cd ..
+cd task5
+for i in {1..50}; 
+do 
+pwgen 128 1 > Hertz_task$i
+done
+chmod 555 Hertz_task{1..50}
+cd /
+cd /home/Holland
+mkdir -m 544 task{1..5}
+mkdir abc
+cd task1 
+for i in {1..50}; 
+do 
+pwgen 128 1 > Holland_task$i
+done
+chmod 555 Holland_task{1..50}
+cd ..
+cd task2
+for i in {1..50}; 
+do 
+pwgen 128 1 > Holland_task$i
+done
+chmod 555 Holland_task{1..50}
+cd ..
+cd task3
+for i in {1..50}; 
+do 
+pwgen 128 1 > Holland_task$i
+done
+chmod 555 Holland_task{1..50}
+cd ..
+cd task4
+for i in {1..50}; 
+do 
+pwgen 128 1  Holland_task$i
+done
+chmod 555 Holland_task{1..50}
+cd ..
+cd task5
+for i in {1..50}; 
+do 
+pwgen 128 1 > Holland_task$i
+done
+chmod 555 Holland_task{1..50}
+cd /
+cd /home/Heisenberg1
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg2
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg3
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg4
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg5
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg6
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg7
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg8
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg9
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg10
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg11
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg12
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg13
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg14
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg15
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg16
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg17
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg18
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg19
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg20
+mkdir -m 554 task{1..5}
+cd  /home/Hertz1
+mkdir -m 554 task{1..5}
+cd /home/Hertz2
+mkdir -m 554 task{1..5}
+cd /home/Hertz3
+mkdir -m 554 task{1..5}
+cd /home/Hertz4
+mkdir -m 554 task{1..5}
+cd /home/Hertz5
+mkdir -m 554 task{1..5}
+cd /home/Hertz6
+mkdir -m 554 task{1..5}
+cd /home/Hertz7
+mkdir -m 554 task{1..5}
+cd /home/Hertz8
+mkdir -m 554 task{1..5}
+cd /home/Hertz9
+mkdir -m 554 task{1..5}
+cd /home/Hertz10
+mkdir -m 554 task{1..5}
+cd /home/Hertz11
+mkdir -m 554 task{1..5}
+cd /home/Hertz12
+mkdir -m 554 task{1..5}
+cd /home/Hertz13
+mkdir -m 554 task{1..5}
+cd /home/Hertz14
+mkdir -m 554 task{1..5}
+cd /home/Hertz15
+mkdir -m 554 task{1..5}
+cd /home/Hertz16
+mkdir -m 554 task{1..5}
+cd /home/Hertz17
+mkdir -m 554 task{1..5}
+cd /home/Hertz18
+mkdir -m 554 task{1..5}
+cd /home/Hertz19
+mkdir -m 554 task{1..5}
+cd /home/Hertz20
+mkdir -m 554 task{1..5}
+cd /home/Holland1
+mkdir -m 554 task{1..5}
+cd /home/Holland2
+mkdir -m 554 task{1..5}
+cd /home/Holland3
+mkdir -m 554 task{1..5}
+cd /home/Holland4
+mkdir -m 554 task{1..5}
+cd /home/Holland5
+mkdir -m 554 task{1..5}
+cd /home/Holland6
+mkdir -m 554 task{1..5}
+cd /home/Holland7
+mkdir -m 554 task{1..5}
+cd /home/Holland8
+mkdir -m 554 task{1..5}
+cd /home/Holland9
+mkdir -m 554 task{1..5}
+cd /home/Holland10
+mkdir -m 554 task{1..5}
+cd /home/Hollnad11
+mkdir -m 554 task{1..5}
+cd /home/Holland12
+mkdir -m 554 task{1..5}
+cd /home/Holland13
+mkdir -m 554 task{1..5}
+cd /home/Holland14
+mkdir -m 554 task{1..5}
+cd /home/Holland15
+mkdir -m 554 task{1..5}
+cd /home/Holland16
+mkdir -m 554 task{1..5}
+cd /home/Holland17
+mkdir -m 554 task{1..5}
+cd /home/Holland18
+mkdir -m 554 task{1..5}
+cd /home/Holland19
+mkdir -m 554 task{1..5}
+cd /home/Holland20
+mkdir -m 554 task{1..5}
+cd /home/Heisenberg
+i=1
+crontab -l > mycron
+echo "59 23 * * * shuf -n 10 -e * | xargs -i mv {} /home/Heisenberg/abc" >> mycron
+echo "0 0 * * * mv /home/Heisenberg/abc/* /home/Heisenberg1/task$i /home/Heisenberg2/task$i /home/Heisenberg3/task$i /home/Heisenberg4/task$i /home/Heisenberg5/task$i /home/Heisenberg6/task$i /home/Heisenberg7/task$i /home/Heisenberg8/task$i /home/Heisenberg9/task$i/home/Heisenberg10/task$i /home/Heisenberg11/task$i /home/Heisenberg12/task$i /home/Heisenberg13/task$i /home/Heisenberg14/task$i /home/Heisenberg15/task$i /home/Heisenberg16/task$i /home/Heisenberg17/task$i /home/Heisenberg18/task$i /home/Heisenberg19/task$i /home/Heisenberg20/task$i" >> mycron
+crontab mycron
+rm mycron
+if (( $(ls /home/Heiseneberg/task$i | wc -l) == 0 ))
+then 
+i=$((i+1))
+fi
+rmdir abc
+cd /home/Hertz
+i=1
+crontab -l > mycron
+echo "59 23 * * * shuf -n 10 -e * | xargs -i mv {} /home/Hertz/abc" >> mycron
+echo "0 0 * * * mv /home/Hertz/abc/* /home/Hertz1/task$i /home/Hertz2/task$i /home/Hertz3/task$i /home/Hertz4/task$i /home/Hertz5/task$i /home/Hertz6/task$i /home/Hertz7/task$i /home/Hertz8/task$i /home/Hertz9/task$i/home/Hertz10/task$i /home/Hertz11/task$i /home/Hertz12/task$i /home/Hertz13/task$i /home/Hertz14/task$i /home/Hertz15/task$i /home/Hertz16/task$i /home/Hertz17/task$i /home/Hertz18/task$i /home/Hertz19/task$i /home/HHertz20/task$i" >> mycron
+crontab mycron
+rm mycron
+if (( $(ls /home/Hertz/task$i | wc -l) == 0 ))
+then 
+i=$((i+1))
+fi
+rmdir abc
+cd /home/Holland
+i=1
+crontab -l > mycron
+echo "59 23 * * * shuf -n 10 -e * | xargs -i mv {} /home/Holland/abc" >> mycron
+echo "0 0 * * * mv /home/Holland/abc/* /home/Holland1/task$i /home/Holland2/task$i /home/Holland3/task$i /home/Holland4/task$i /home/Holland5/task$i /home/Holland6/task$i /home/Holland7/task$i /home/Holland8/task$i /home/Holland9/task$i/home/Holland10/task$i /home/Holland11/task$i /home/Holland12/task$i /home/Holland13/task$i /home/Holland14/task$i /home/Holland15/task$i /home/Holland16/task$i /home/Holland17/task$i /home/Holland18/task$i /home/Holland19/task$i /home/Holland20/task$i" >> mycron
+crontab mycron
+rm mycron
+if (( $(ls /home/Heiseneberg/task$i | wc -l) == 0 ))
+then 
+i=$((i+1))
+fi
+rmdir abc
+EOF
+echo "Done and all set."
