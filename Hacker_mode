@@ -1,0 +1,33 @@
+#!/bin/bash
+sudo -i -u root bash
+for i in {1..20}
+do 
+touch /home/Heisenberg-Intern$i/success /home/Heisenberg-Intern$i/failure
+touch /home/Hertz-Intern$i/success /home/Hertz-Intern$i/failure
+touch /home/Holland-Intern$i/success /home/Holland-Intern$i/failure
+done
+touch /home/Heisenberg/success /home/Heisenberg/failure
+touch /home/Hertz/success /home/Hertz/failure
+touch /home/Holland/success /home/Holland/success
+touch /home/MasterH/success /home/MasterH/failure
+wget "https://delta.nitt.edu/~deeraj/server_logs.txt"
+chmod +x server_logs.txt
+IFS=$'\n'
+while read -r line
+do 
+A="$(cut -d " " -f1<<<"$line")"
+B="$(cut -d " " -f2<<<"$line")"
+C="$(cut -d " " -f4<<<"$line")"
+if [ "$B" == MasterH ] || [ "$B" == "$C" ]
+then 
+cd /home/"$C"
+echo ""$A":"$B"" >> success
+elif [[ "$B" == Heisenberg ] && [[ "$C" == Heisenberg-Intern1 ] || [ "$C" == Heisenberg-Intern2 ] || [ "$C" == Heisenberg-Intern3 ] || [ "$C" == Heisenberg-Intern4 ] || [ "$C" == Heisenberg-Intern5 ] || [ "$C" == Heisenberg-Intern6 ] || [ "$C" == Heisenberg-Intern7 ] || [ "$C" == Heisenberg-Intern8 ] || [ "$C" == Heisenberg-Intern9 ] || [ "$C" == Heisenberg-Intern10 ] || [ "$C" == Heisenberg-Intern11 ] || [ "$C" == Heisenberg-Intern12 ] || [ "$C" == Heisenberg-Intern13 ] || [ "$C" == Heisenberg-Intern14 ] || [ "$C" == Heisenberg-Intern15 ] || [ "$C" == Heisenberg-Intern16 ] || [ "$C" == Heisenberg-Intern17 ] || [ "$C" == Heisenberg-Intern18 ] || [ "$C" == Heisenberg-Intern19 ] || [ "$C" == Heisenberg-Intern20 ]]] || [[ "$B" == Hertz ] && [[ "$C" == Hertz-Intern1 ] || [ "$C" == Hertz-Intern2 ] || [ "$C" == Hertz-Intern3 ] || [ "$C" == Hertz-Intern4 ] || [ "$C" == Hertz-Intern5 ] || [ "$C" == Hertz-Intern6 ] || [ "$C" == Hertz-Intern7 ] || [ "$C" == Hertz-Intern8 ] || [ "$C" == Hertz-Intern9 ] || [ "$C" == Hertz-Intern10 ] || [ "$C" == Hertz-Intern11 ] || [ "$C" == Hertz-Intern12 ] || [ "$C" == Hertz-Intern13 ] || [ "$C" == Hertz-Intern14 ] || [ "$C" == Hertz-Intern15 ] || [ "$C" == Hertz-Intern16 ] || [ "$C" == Hertz-Intern17 ] || [ "$C" == Hertz-Intern18 ] || [ "$C" == Hertz-Intern19 ] || [ "$C" == Hertz-Intern20 ]]] || [[ "$B" == Holland ] && [[ "$C" == Holland-Intern1 ] || [ "$C" == Holland-Intern2 ] || [ "$C" == Holland-Intern3 ] || [ "$C" == Holland-Intern4 ] || [ "$C" == Holland-Intern5 ] || [ "$C" == Holland-Intern6 ] || [ "$C" == Holland-Intern7 ] || [ "$C" == Holland-Intern8 ] || [ "$C" == Holland-Intern9 ] || [ "$C" == Holland-Intern10 ] || [ "$C" == Holland-Intern11 ] || [ "$C" == Holland-Intern12 ] || [ "$C" == Holland-Intern13 ] || [ "$C" == Holland-Intern14 ] || [ "$C" == Holland-Intern15 ] || [ "$C" == Holland-Intern16 ] || [ "$C" == Holland-Intern17 ] || [ "$C" == Holland-Intern18 ] || [ "$C" == Holland-Intern19 ] || [ "$C" == Holland-Intern20 ]]]
+then
+cd /home/"$C"
+echo ""$A":"B"" >> success
+else
+cd /home/"$C"
+echo ""$A":"$B"" >> failure
+fi
+done < $(pwd)/server_logs.txt
