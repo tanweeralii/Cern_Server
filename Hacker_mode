@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo -i -u root bash
+sudo -i -u root bash << EOF
 for i in {1..20}
 do 
 touch /home/Heisenberg-Intern$i/success /home/Heisenberg-Intern$i/failure
@@ -31,3 +31,4 @@ cd /home/"$C"
 echo ""$A":"$B"" >> failure
 fi
 done < $(pwd)/server_logs.txt
+EOF
